@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+section#proyectos{
+    background-color: rgb(206, 236, 202);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+section#principal{
+    height: 50vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+section#presentacion{
+    float: left;
+    height: 30vh;
+    width: 50%;
+    background-color: rgb(197, 218, 224);
+    display: flex;
+    flex-direction: column ;
+    justify-content: normal;
+    
+    color: black;
+    padding: 40px;
+    text-align: left;
+}
+
+
+section#estudios{
+    float: right;
+    height: 30vh;
+    width: 50%;
+    background-color: rgb(177, 194, 138);
+    display: flex;
+    flex-direction: column ;
+    text-align: justify;
+    color: black;
+    padding: 40px;
+    
+}
+
+
+
+
+section#contacto{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    color: black;
+    padding: 40px;
+    text-align: center;
+
+}
+    
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: left;
+}
+
+.lista_de_proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
+}
+
+.detalle_proyecto{
+    border: 5px solid blue;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+
+.detalle_proyecto img{
+    width: 100%;
+}
+
+header{
+    position: sticky ;
+    top: 0;
+   padding-top: 30px; 
+   padding-bottom: 30px;
+   background-color: rgb(114, 166, 243);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+       }
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: beige;
+    text-align: center;
+}
